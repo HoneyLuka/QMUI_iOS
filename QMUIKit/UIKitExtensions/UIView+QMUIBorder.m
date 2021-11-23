@@ -258,7 +258,7 @@ static char kAssociatedObjectKey_dashPattern;
     UIBezierPath *bottomPath = [UIBezierPath bezierPath];
     UIBezierPath *rightPath = [UIBezierPath bezierPath];
     
-    if (view.layer.qmui_originCornerRadius > 0) {
+    if (view.layer.qmui_originCornerRadius > 0 && NO) {
         
         CGFloat cornerRadius = view.layer.qmui_originCornerRadius;
         CGFloat radius = cornerRadius - lineOffset;
